@@ -23,6 +23,6 @@ urlpatterns = [
    path('datetime/', CurrentDateView.as_view()),
    path('random/', CurrentRandomView.as_view()),
    path('hello/', CurrentHelloView.as_view()),
-   path('', IndexView.as_view()),
+   path('common', IndexView.as_view()),
 ]
 
